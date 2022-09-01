@@ -1,0 +1,166 @@
+.product-category {
+    margin-top:30px;
+}
+
+.clp-page{
+    background-color: #f1edea;
+    padding-bottom: 41px;
+}
+.yazi-clp {
+    text-align: center;
+    padding-top: 134px;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+}
+
+.yazi-clp > p > a {
+    color: #84bc22;
+}
+
+.yazi-clp > p > .egik {
+    color: #816fca;
+    padding: 0 14px;
+}
+.large-services {
+    position: relative;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #45413e;
+    font-size: 48px;
+    font-weight: 400;
+    padding: 26px 37px 39px 33px;
+}
+
+.line {
+    position: relative;
+    top: -24px;
+    height: 2px;
+    margin: 0 20px;
+    background: #ffffff;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.large-services > p{
+    position: relative;
+    display: inline-block;
+    background-color: #f1edea;
+    padding: 0 20px;
+    z-index: 1;
+}
+
+.variables {
+    margin: 26px 55px;
+    padding: 35px 30px;
+    background-color: #ffffff;
+}
+.variables > .variables-up > .alt-var, .variables-up > .alt-var > p {
+    display: inline-block;
+}
+
+.variables > .variables-up > .alt-var {
+    margin-left: 135px;
+}
+.variables > .variables-up > .alt-var > select {
+    width: 197px;
+    border: 2px solid #45413e;
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin-left: 35px;
+}
+
+.variables > .variables-down > .down-var, .variables-down > .down-var > p , .variables > .variables-down > .down-var > .bttns {
+    display: inline-block;
+}
+
+.variables > .variables-down {
+    margin-top: 2em;
+}
+
+.variables > .variables-down > .down-var {
+    margin-left: 135px;
+}
+.variables > .variables-down > .down-var > select {
+    width: 197px;
+    border: 2px solid #45413e;
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin-left: 35px;
+}
+
+.variables > .variables-down > .down-var > .bttns {
+    width: 197px;
+    margin-left: 32px;
+}
+
+.bttns span{
+    display: none;
+}
+
+.variables > .variables-down > .down-var > .bttns > button {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: none;
+    vertical-align: middle;
+    cursor: pointer;
+    border: solid 1px black;
+    margin-left: 7px;
+}
+
+.apparel {
+    text-align: center;
+}
+
+.figures {
+    padding: 32px 55px;
+    background-color: #f2edea;
+
+}
+
+.figures > .satirlar {
+    margin-top: 30px;
+}
+
+.figures > .satirlar > .content {
+    width: 270px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 26px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.figures > .satirlar > .content > .son-paragraf {
+    padding: 1.2em 0;
+    opacity: 0.5;
+}
+
+.figures > .satirlar > .content > img {
+    padding-bottom: 1.2em;
+}
+
+.besinci-row {
+    display: none;
+}
+
+.yukle {
+    margin-top: 100px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.yukle > button {
+    border: 2px solid #d9d9d9;
+    border-radius: 25px;
+    background-color: #ffffff;
+    padding: 12px 40px;
+    width: 184px;
+    margin: auto;
+}
+
+.yukle > button:hover {
+    background-color: #84bc22;
+    color: #ffffff;
+    transition: 0.3s;
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../index.css">
+        <link rel="stylesheet" href="../404-page/404.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap" rel="stylesheet"> 
+        <meta name="viewport" content="width=device-width, inital-scale=1, shrink-to-fit=no"> 
+    </head>
+    <body>
+        <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+        <header>
+            <div class="all-menu">
+                <div class="logo">
+                    <a href="../index.html" id="image"><img src="../img/homepage/Layer_2.png" alt="logo"></a>
+                    <a href="../index.html" id="yazi"><img src="../img/homepage/2-layers.jpg" alt="logo-yazi"></a>
+                </div>
+                <nav class="menu-1">
+                    <ul>
+                        <li style="padding-left: 0px" id="hover-btn"><a href="#">SERVICES </a>
+                            <div class="product-category">
+                                <div style="padding-left: 0px;" class="alt-product">
+                                    <p>PRODUCT CATEGORIES</p>
+                                    <a style="padding-left: 0px; margin-top: 31px;" href="../404-page/404.html">Accessories</a>
+                                    <a href="../404-page/404.html">Alcohol</a>
+                                    <a href="../404-page/404.html">Art</a>
+                                    <a href="../404-page/404.html">Books</a>
+                                    <a href="../404-page/404.html">Drink</a>
+                                    <a href="../404-page/404.html">Electronics</a>
+                                    <a href="../404-page/404.html">Flowers &amp; Plants</a>
+                                    <a href="../404-page/404.html">Food</a>
+                                </div>
+                                <div class="alt-product">
+                                    <a style="padding-left: 0px; margin-top: 0px;" href="../404-page/404.html">Gadgets</a>
+                                    <a href="../404-page/404.html">Garden</a>
+                                    <a href="../404-page/404.html">Grocery</a>
+                                    <a href="../404-page/404.html">Home</a>
+                                    <a href="../404-page/404.html">Jewelry</a>
+                                    <a href="../404-page/404.html">Kids &amp; Baby</a>
+                                    <a href="../404-page/404.html">Men's Fashion</a>
+                                    <a href="../404-page/404.html">Mobile</a>
+                                </div>
+                                <div class="alt-product">
+                                    <a style="padding-left: 0px; margin-top: 0px;" href="../404-page/404.html">Motorcycles</a>
+                                    <a href="../404-page/404.html">Movies</a>
+                                    <a href="../404-page/404.html">Music</a>
+                                    <a href="../404-page/404.html">Office</a>
+                                    <a href="../404-page/404.html">Pets</a>
+                                    <a href="../404-page/404.html">Romantic</a>
+                                    <a href="../404-page/404.html">Sport</a>
+                                    <a href="../404-page/404.html">Toys</a>
+                                </div>
+                                <div class="alt-product">
+                                    <p>SALE</p>
+                                    <a style="padding-left: 0px; margin-top: 31px;" href="../404-page/404.html">Accessories</a>
+                                    <a href="../404-page/404.html">Alcohol</a>
+                                    <a href="../404-page/404.html">Art</a>
+                                    <a href="../404-page/404.html">Books</a>
+                                    <a href="../404-page/404.html">Drink</a>
+                                    <a href="../404-page/404.html">Electronics</a>
+                                    <a href="../404-page/404.html">Flowers &amp; Plants</a>
+                                    <a href="../404-page/404.html">Food</a>
+                                </div>
+                                <div class="foto">
+                                    <img src="../img/homepage/Layer_162.png">
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">COMPANY</a></li>
+                        <li><a href="#">LIBRARY</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-2" id="list-en">
+                        <select class="en-list">
+                            <option class="en-button">EN</option>
+                            <option class="en-button">FR</option>
+                            <option class="en-button">US</option>
+                        </select>
+                        <select class="us-list">
+                            <option class="us-button">&dollar;US</option>
+                            <option class="us-button">EUR</option>
+                            <option class="us-button">UAH</option>
+                        </select>
+                </div>
+                <ul class="menu-3">
+                    <li style="padding-left: 0px"><a href="#"><img src="../img/homepage/Search_Information._Attribute_as_Designmodo_from_Flaticon.com.png"></a></li>
+                    <li><button id="login-prof"><img src="../img/homepage/Profile_User_Outline._Attribute_as_Situ_Herrera_from_Flaticon.com.png"></button></li>
+                    <li><a href="#"><img src="../img/homepage/Heart_Outline_Rounded_Shape._Attribute_as_Freepik_from_Flaticon.com.png"><span class="badge badge-pill badge-success shop-badge" id="fav-count" ></span></a></li>
+                    <li><a href="#"><img src="../img/homepage/Bag_For_Shopping._Attribute_as_SimpleIcon_from_Flaticon.com.png"></a><span class="badge badge-pill badge-success shop-badge" id="cart-count" ></span></li>
+                </ul>
+                <div class="for-body" id="form">
+                    <div class="center">
+                        <h1>Sign in</h1>
+                        <form method="post" id="frm">
+                            <div class="mail-lato">
+                                <p>Email</p>
+                                <div class="txt_field">
+                                <input id="mail" type="email" required>
+                                </div>
+                            </div>
+                            <div class="mail-lato">
+                                <p>Lato <span id="forgot"><a href="#">forgot password</a></span></p>
+                                <div class="txt_field">
+                                <input id="password" type="password" required>
+                                <label><img onclick="togglePassword()" src="../img/login/Eye_Shape_Variant._Attribute_as_Amit_Jakhu_from_Flaticon.com.png"></label>
+                                </div>
+                            </div>
+                            <input type="submit" value="LOGIN" id="login" onClick="myFunction()">
+                            <div class="signup_link">
+                            <a href="#">I don't have an account</a>
+                            </div>
+                        </form>
+                        <script>
+                            function togglePassword() {
+                                var element = document.getElementById('password');
+                                element.type = (element.type == 'password' ? 'text' : 'password');
+                            }
+                            function goback(){
+                                document.getElementById.addEventListener('click', function(){
+
+                                })
+                            }
+                            
+                            let email = document.querySelector("#email");
+                            let password = document.querySelector("#password");
+
+                            function store()
+                            {
+                                localStorage.setItem('email',email.value)
+                                localStorage.setItem('password', password.value)
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <script>
+                const btn = document.getElementById('login-prof');
+                const form = document.getElementById('form');
+                btn.addEventListener('click', () => {
+
+                    form.style.display = "block";
+                });
+
+                document.addEventListener('keydown', function(event){
+                    if(event.key === 'Escape'){
+                        form.style.display = "none";
+                    }
+                });
+            </script>
+        </header>
+
+        <div class="not-page">
+            <div class="yazi-404">
+                <p><a href="../index.html">Home</a> <span class="egik">/</span> <span>404</span></p>
+            </div>
+            <div class="large-404">
+                <p>404</p>
+                <div class="line"></div> 
+            </div>
+
+            <div class="main-404">
+                <div class="ops">
+                    <p>Oops!</p>
+                </div>
+                <div class="yazilar">
+                    <h2>Sorry, this page could not be found!</h2>
+                    <p class="p1">Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <br>
+                    <p class="p1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
+                    <p class="home-link"><a href="../index.html">Go back to Homepage</a></p>
+                    <h3>Search our site</h3>
+                    <form id="search" method="get" action="https://www.google.com/images">
+                        <input class="search textbox" type="text" name="q" placeholder="SEARCH">
+                        <input class="search submit-button" type="button" type="submit" value="">
+                     </form>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-left">
+                <p class="copy">&copy; Copyright java. <br> All Rights Reserved.</p>
+                <p class="contact">CONTACT</p>
+                <div class="location-adress">
+                Headquarters:<br>
+                5600, Blvd. des Galeries, Bur 530 Québec, Québec G2K 2H6
+                </div>
+                <div class="mail-adress"><a href="mailto:contact@osf-global.com">contact@osf-global.com</a></div>
+                <div class="tel-no"><a href="tel:+1 (888) 548-4344">+1 (888) 548-4344</a></div>
+            </div>
+            <div class="footer-middle">
+                <div class="categoriest">
+                    <p>CATEGORIEST</p>
+                    <div class="alt-category" style="padding-left: 0px;">
+                        <a style="padding-top: 0px" href="../404-page/404.html">Alcohol</a>
+                        <a href="../404-page/404.html">Art</a>
+                        <a href="../404-page/404.html">Books</a>
+                        <a href="../404-page/404.html">Drink</a>
+                        <a href="../404-page/404.html">Electronics</a>
+                    </div>
+                    <div class="alt-category">
+                        <a style="padding-top: 0px" href="../404-page/404.html">Home</a>
+                        <a href="../404-page/404.html">Jewelry</a>
+                        <a href="../404-page/404.html">Kids &amp; Baby</a>
+                        <a href="../404-page/404.html">Men's Fashion</a>
+                        <a href="../404-page/404.html">Mobile</a>
+                        <a href="../404-page/404.html">Motorcycles</a>
+                        <a href="../404-page/404.html">Movies</a>
+                        <a href="../404-page/404.html">Music</a>
+                    </div>
+                    <div class="alt-category">
+                        <a style="padding-top: 0px" href="../404-page/404.html">Sport</a>
+                        <a href="../404-page/404.html">Toys</a>
+                        <a href="../404-page/404.html">Travel</a>
+                        <a href="../404-page/404.html">Women's Fashion</a>
+                    </div>
+                </div>
+                <div class="about">
+                    <p>ABOUT</p>
+                    <div class="alt-about">
+                        <a style="padding-top: 0px" href="../404-page/404.html">About us</a>
+                        <a href="../404-page/404.html">Delivery</a>
+                        <a href="../404-page/404.html">Testimonials</a>
+                        <a href="../404-page/404.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="social-links">
+                    <a style="padding-top: 0px" href="https://tr-tr.facebook.com"><img src="../img/homepage/socials/f.png"></a>
+                    <a href="https://myaccount.google.com/intro/profile"><img src="../img/homepage/socials/g+.png"></a>
+                    <a href="https://twitter.com"><img src="../img/homepage/socials/t.png"></a>
+                    <a href="https://tr.pinterest.com"><img src="../img/homepage/socials/p.png"></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+    <script src="../product_detailed_page/cart.js"></script>
+    <script src="../plus-heart.js"></script>
+</html>

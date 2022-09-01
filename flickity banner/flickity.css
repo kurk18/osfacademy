@@ -1,0 +1,78 @@
+/*! Flickity v2.3.0
+https://flickity.metafizzy.com
+---------------------------------------------- */
+* { box-sizing: border-box; }
+
+.flickity-enabled {
+  position: relative;
+}
+
+.flickity-enabled:focus { outline: none; }
+
+.flickity-viewport {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+/* ---- flickity-button ---- */
+
+.flickity-button {
+  position: relative;
+  border: none;
+  margin: auto;
+}
+
+.flickity-button:active {
+  opacity: 0.6;
+}
+
+.flickity-button-icon {
+  fill: currentColor;
+}
+
+/* ---- previous/next buttons ---- */
+
+.flickity-prev-next-button {
+  position: absolute;
+  top: -3.125rem;
+  width: 1.875rem;
+  height: 1.875rem;
+  background-color: #262a32;
+  color: white;
+}
+
+.flickity-prev-next-button.previous {
+  left: 14.0625rem;
+}
+.flickity-prev-next-button.next {
+  right: 14.0625rem;
+}
+
+.second{
+  width: 73.125rem;
+  background-color: #262a32;
+  margin-left: 3.125rem;
+  margin-top: 6.25rem;
+  padding-bottom: 4rem;
+}
+
+.carousel-cell {
+  width: 16.857rem;
+  height: 18.5rem;
+  margin-right: 1.875rem;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.carousel-cell > .cell-yazi {
+  width: 12.5625rem;
+  margin: auto;
+  margin-top: 0.9375rem;
+  color: black;
+}
+
+.carousel-cell > .green {
+  color: #84bc22;
+}

@@ -1,0 +1,124 @@
+.product-category {
+    margin-top:40px;
+}
+.not-page{
+    background-color: #f1edea;
+    padding-bottom: 41px;
+}
+.yazi-404 {
+    text-align: center;
+    padding-top: 134px;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+}
+
+.yazi-404 > p > a {
+    color: #84bc22;
+}
+
+.yazi-404 > p > .egik {
+    color: #816fca;
+    padding: 0 14px;
+}
+.large-404 {
+    position: relative;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #45413e;
+    font-size: 48px;
+    font-weight: 400;
+    padding: 26px 37px 39px 33px;
+}
+
+.line {
+    position: relative;
+    top: -24px;
+    height: 2px;
+    margin: 0 20px;
+    background: #e5e2df;
+    z-index: 0;
+}
+
+.large-404 > p{
+    position: relative;
+    display: inline-block;
+    background-color: #f1edea;
+    padding: 0 20px;
+    z-index: 1;
+}
+
+.main-404 {
+    margin: 17px 55px;
+    height: 528px;
+    border-radius: 8px;
+    background: url(../img/404page/Exclamation_Mark_Inside_An_Octahedron._Attribute_as_Elegant_Themes_from_Flaticon.com.png)
+                no-repeat
+                white;
+    background-position: left -55px top 63px;
+}
+
+.ops {
+    float: left;
+    color: #84bc22;
+    width: 289px;
+    font-family: 'Lato', sans-serif;
+    font-size: 113px;
+    font-weight: 400;
+    margin: 191px 0 198px 105px;
+}
+
+.yazilar {
+    float: left;
+    width: 566px;
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: 'Lato', sans-serif;
+    margin: 71px 0 0 106px;
+}
+
+.yazilar > h2 {
+    padding-bottom: 28px;
+}
+
+.yazilar > .home-link {
+    margin-top: 48px;
+}
+
+.yazilar > .p1 {
+    line-height: 24px;
+}
+
+.yazilar > .home-link > a {
+    color: #84bc22;
+}
+
+.yazilar > h3 {
+    margin-top: 67px;
+}
+
+.search {
+border-radius:50px;
+height: 36px; 
+vertical-align:middle;
+margin-top: 25px;
+}
+
+.textbox {
+border: 2px solid #e8e2d6;
+width: 567px;
+padding-left: 23px;
+
+}
+
+.submit-button {
+background-image: url("../project_real/img/homepage/Search_Information._Attribute_as_Designmodo_from_Flaticon.com.png");
+text-decoration: none;
+cursor: pointer;
+width: 18px;
+background-repeat: no-repeat;
+background-size: 18px;
+background-color: transparent;
+border:none;
+margin-top: -47px;
+margin-left: 556px;
+}

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../index.css">
+        <link rel="stylesheet" href="pdp.css">
+        <link rel="stylesheet" href="category_landing_page/clp.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="stylesheet" media="screen and|not|only" href="../index.css">  
+        <meta name="viewport" content="width=device-width, inital-scale=1, shrink-to-fit=no"> 
+    </head>
+    <body>
+        <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+        <header>
+            <div class="all-menu">
+                <div class="logo">
+                    <a href="../index.html" id="image"><img src="../img/homepage/Layer_2.png" alt="logo"></a>
+                    <a href="../index.html" id="yazi"><img src="../img/homepage/2-layers.jpg" alt="logo-yazi"></a>
+                </div>
+                <nav class="menu-1">
+                    <ul>
+                        <li style="padding-left: 0px" id="hover-btn"><a href="#">SERVICES </a>
+                            <div class="product-category">
+                                <div style="padding-left: 0px;" class="alt-product">
+                                    <p>PRODUCT CATEGORIES</p>
+                                    <a style="padding-left: 0px; margin-top: 31px;" href="../404-page/404.html">Accessories</a>
+                                    <a href="../404-page/404.html">Alcohol</a>
+                                    <a href="../404-page/404.html">Art</a>
+                                    <a href="../404-page/404.html">Books</a>
+                                    <a href="../404-page/404.html">Drink</a>
+                                    <a href="../404-page/404.html">Electronics</a>
+                                    <a href="../404-page/404.html">Flowers &amp; Plants</a>
+                                    <a href="../404-page/404.html">Food</a>
+                                </div>
+                                <div class="alt-product">
+                                    <a style="padding-left: 0px; margin-top: 0px;" href="../404-page/404.html">Gadgets</a>
+                                    <a href="../404-page/404.html">Garden</a>
+                                    <a href="../404-page/404.html">Grocery</a>
+                                    <a href="../404-page/404.html">Home</a>
+                                    <a href="../404-page/404.html">Jewelry</a>
+                                    <a href="../404-page/404.html">Kids &amp; Baby</a>
+                                    <a href="../404-page/404.html">Men's Fashion</a>
+                                    <a href="../404-page/404.html">Mobile</a>
+                                </div>
+                                <div class="alt-product">
+                                    <a style="padding-left: 0px; margin-top: 0px;" href="../404-page/404.html">Motorcycles</a>
+                                    <a href="../404-page/404.html">Movies</a>
+                                    <a href="../404-page/404.html">Music</a>
+                                    <a href="../404-page/404.html">Office</a>
+                                    <a href="../404-page/404.html">Pets</a>
+                                    <a href="../404-page/404.html">Romantic</a>
+                                    <a href="../404-page/404.html">Sport</a>
+                                    <a href="../404-page/404.html">Toys</a>
+                                </div>
+                                <div class="alt-product">
+                                    <p>SALE</p>
+                                    <a style="padding-left: 0px; margin-top: 31px;" href="../404-page/404.html">Accessories</a>
+                                    <a href="../404-page/404.html">Alcohol</a>
+                                    <a href="../404-page/404.html">Art</a>
+                                    <a href="../404-page/404.html">Books</a>
+                                    <a href="../404-page/404.html">Drink</a>
+                                    <a href="../404-page/404.html">Electronics</a>
+                                    <a href="../404-page/404.html">Flowers &amp; Plants</a>
+                                    <a href="../404-page/404.html">Food</a>
+                                </div>
+                                <div class="foto">
+                                    <img src="../img/homepage/Layer_162.png">
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">COMPANY</a></li>
+                        <li><a href="#">LIBRARY</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-2" id="list-en">
+                        <select class="en-list">
+                            <option class="en-button">EN</option>
+                            <option class="en-button">FR</option>
+                            <option class="en-button">US</option>
+                        </select>
+                        <select class="us-list">
+                            <option class="us-button">&dollar;US</option>
+                            <option class="us-button">EUR</option>
+                            <option class="us-button">UAH</option>
+                        </select>
+                </div>
+                <ul class="menu-3">
+                    <li style="padding-left: 0px"><a href="#"><img src="../img/homepage/Search_Information._Attribute_as_Designmodo_from_Flaticon.com.png"></a></li>
+                    <li><button id="login-prof"><img src="../img/homepage/Profile_User_Outline._Attribute_as_Situ_Herrera_from_Flaticon.com.png"></button></li>
+                    <li><a href="#"><img src="../img/homepage/Heart_Outline_Rounded_Shape._Attribute_as_Freepik_from_Flaticon.com.png"><span class="badge badge-pill badge-success shop-badge" id="fav-count" ></span></a></li>
+                    <li><a href="#"><img src="../img/homepage/Bag_For_Shopping._Attribute_as_SimpleIcon_from_Flaticon.com.png"></a><span class="badge badge-pill badge-success shop-badge" id="cart-count" ></span></li>
+                </ul>
+                <div class="for-body" id="form">
+                    <div class="center">
+                        <h1>Sign in</h1>
+                        <form method="post" id="frm">
+                            <div class="mail-lato">
+                                <p>Email</p>
+                                <div class="txt_field">
+                                <input id="mail" type="email" required>
+                                </div>
+                            </div>
+                            <div class="mail-lato">
+                                <p>Lato <span id="forgot"><a href="#">forgot password</a></span></p>
+                                <div class="txt_field">
+                                <input id="password" type="password" required>
+                                <label><img onclick="togglePassword()" src="../img/login/Eye_Shape_Variant._Attribute_as_Amit_Jakhu_from_Flaticon.com.png"></label>
+                                </div>
+                            </div>
+                            <input type="submit" value="LOGIN" id="login" onClick="myFunction()">
+                            <div class="signup_link">
+                            <a href="#">I don't have an account</a>
+                            </div>
+                        </form>
+                        <script>
+                            function togglePassword() {
+                                var element = document.getElementById('password');
+                                element.type = (element.type == 'password' ? 'text' : 'password');
+                            }
+                            function goback(){
+                                document.getElementById.addEventListener('click', function(){
+
+                                })
+                            }
+                            
+                            let email = document.querySelector("#email");
+                            let password = document.querySelector("#password");
+
+                            function store()
+                            {
+                                localStorage.setItem('email',email.value)
+                                localStorage.setItem('password', password.value)
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <script>
+                const btn = document.getElementById('login-prof');
+                const form = document.getElementById('form');
+                btn.addEventListener('click', () => {
+
+                    form.style.display = "block";
+                });
+
+                document.addEventListener('keydown', function(event){
+                    if(event.key === 'Escape'){
+                        form.style.display = "none";
+                    }
+                });
+            </script>
+        </header>
+        <div class="pdp-page">
+            <div class="yazi-pdp">
+                <p><a href="../../index.html">Home</a> <span class="egik">/</span> <span style="color: #84bc22;">OSF Theme</span> <span class="egik">/</span> <span>Ruffle Front V-Neck Cardigan</span></p>
+            </div>
+            <div class="large-pdp">
+                <p>Ruffle Front V-Neck Cardigan</p>
+                <div class="line"></div> 
+            </div>
+            <div class="products">
+                <div class="resim">
+                    <img class="active-img" src="../img/pdp/PG.10216885.JJ169XX.PZ.jpg">
+                </div>
+                <div id="fullpage" onclick="this.style.display='none';"></div>
+            
+                <div class="resim-list">
+                    <ul style="padding-left: 0;" class="resimmm">
+                        <li><img src="../img/pdp/PG.10216885.JJ169XX.PZ-small.jpg"></li>
+                        <li><img src="../img/pdp/PG.10216885.JJ169XX.BZ-small.jpg"></li>
+                        <li><img src="../img/pdp/PG.10216885.JJ8UTXX.BZ-small.jpg"></li>
+                        <li><img src="../img/pdp/PG.10216885.JJ8UTXX.PZ-small.jpg"></li>
+                    </ul>
+                </div>
+                <script src="../product_detailed_page/script.js"></script>
+                <div class="right-side">
+                    <p>&dollar;299.99</p>
+                    <select>
+                        <option><div id="dark-gray"></div><span class="renkler">Dark Gray</span></option>
+                        <option><span id="green"></span><span class="renkler">Green</span></option>
+                        <option><span id="red"></span><span class="renkler">Red</span></option>
+                        <option><span id="dark-blue"></span><span class="renkler">Dark Blue</span></option>
+                    </select>
+                    
+                    <div class="shop-part">
+                        <div class="number-btn">
+                            <button id="decrease" style="float: left; font-size: 18px;">-</button>
+                            <div id="sayi">1</div>
+                            <button id="increase" style="float: right; font-size: 18px">+</button>
+                        </div>
+                        
+                        <div class="add-btn" id="ad-btn">
+                            <button class="add-to-card">ADD TO CARD</button>
+                        </div>
+                    </div>
+                    <div class="articles">
+                        <article class="art first">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                            totam rem aperiam, eaque ipsa quae ab illo inventore Beatae vitae dicta sunt explicabo. 
+                            Nemo enim ipsam voluptatem quia voluptas</article>
+                        <article class="art second" id="second-art">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore Beatae vitae dicta sunt 
+                            explicabo. Nemo enim ipsam voluptatem quia voluptas</article>
+                        <div class="read-more"><a id="more-read" style="color: #84bc22;">Read more</a></div>
+                        <script>
+                            $("#more-read").click(function() {
+                                $("#second-art").show(); 
+                                $("#more-read").hide();
+                            });
+                        </script>
+                    </div>
+                    <div class="share">
+                        <div>Share</div>
+                        <div class="social-share">
+                            <a style="margin-top: 0px" href="https://tr-tr.facebook.com"><img src="../img/homepage/socials/f.png"></a>
+                            <a href="https://myaccount.google.com/intro/profile"><img src="../img/homepage/socials/g+.png"></a>
+                            <a href="https://twitter.com"><img src="../img/homepage/socials/t.png"></a>
+                            <a href="https://tr.pinterest.com"><img src="../img/homepage/socials/p.png"></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="desc-add-review">
+                <div class="options">
+                    <button style="margin-left: 0;" id="desc">Description</button>
+                    <button id="add">Additional Information</button>
+                    <button id="rev">Reviews (3)</button>
+                </div>
+                <div class="desc-yazi" id="des-yazi">
+                    <article>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis 
+                        dis parturient montes, nascetur ridiculus mus.<br><br>Lorem ipsum dolor sit amet, consectetuer 
+                        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </article>
+                    <article>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,<br> 
+                        ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla 
+                        vel, aliquet nec, vulputate eget, arcu. </article>
+                </div>
+                <div class="add-yazi" id="ad-yazi">
+                    <article>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
+                        ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, 
+                        fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, 
+                        justo. </article>
+                    <article>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum 
+                        semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend 
+                        ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut 
+                        metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper 
+                        ultricies nisi. Nam eget dui. Etiam rhoncus.</article>
+                </div>
+                <div class="review-yazi" id="rev-yazi">
+                    <ul>
+                        <li>1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                        <li>2. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                        <li>3. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                    </ul>
+                </div>
+
+                <script>
+                    const add = document.getElementById('add');
+                    const addyazi = document.getElementById('ad-yazi');
+
+                    add.addEventListener('click', () => {
+                        const desc = document.getElementById('desc');
+                        const descyazi = document.getElementById('des-yazi');
+                        const review = document.getElementById('rev');
+                        const revyazi = document.getElementById('rev-yazi');
+                        addyazi.style.display = 'block';
+                        add.style.backgroundColor = '#262a32';
+                        add.style.borderRadius = '20px 20px 0 0';
+                        add.style.color = '#ffffff';
+                        addyazi.style.color = '#ffffff';
+
+                        desc.style.backgroundColor = 'white';
+                        desc.style.color = 'black';
+                        descyazi.style.display = 'none';
+
+                        review.style.backgroundColor = 'white';
+                        review.style.color = 'black';
+                        revyazi.style.display = 'none';
+                    });
+
+                    const desc = document.getElementById('desc');
+                    const descyazi = document.getElementById('des-yazi');
+
+                    desc.addEventListener('click', () => {
+                        const review = document.getElementById('rev');
+                        const revyazi = document.getElementById('rev-yazi');
+
+                        descyazi.style.display = 'block';
+                        desc.style.backgroundColor = '#262a32';
+                        desc.style.borderRadius = '20px 20px 0 0';
+                        desc.style.color = '#ffffff';
+                        descyazi.style.color = '#ffffff';
+
+                        add.style.backgroundColor = 'white';
+                        add.style.color = 'black';
+                        addyazi.style.display = 'none';
+
+                        review.style.backgroundColor = 'white';
+                        review.style.color = 'black';
+                        revyazi.style.display = 'none';
+                    });
+
+                    const review = document.getElementById('rev');
+                    const revyazi = document.getElementById('rev-yazi');
+                    
+                    review.addEventListener('click', () => {
+                        const desc = document.getElementById('desc');
+                        const descyazi = document.getElementById('des-yazi');
+
+                        revyazi.style.display = 'block';
+                        review.style.backgroundColor = '#262a32';
+                        review.style.borderRadius = '20px 20px 0 0';
+                        review.style.color = '#ffffff';
+                        revyazi.style.color = '#ffffff';
+
+                        desc.style.backgroundColor = 'white';
+                        desc.style.color = 'black';
+                        descyazi.style.display = 'none';
+
+                        add.style.backgroundColor = 'white';
+                        add.style.color = 'black';
+                        addyazi.style.display = 'none';
+                    });
+                </script>
+            </div>
+
+            <div class="pop-items">
+                <div class="large-pop">
+                    <p>POPULAR ITEMS</p>
+                    <div class="line-2"></div> 
+                </div>
+
+                <div class="satirlar" style="margin-top: 0px;">
+                    <div class="content" style="margin-left: 0;">
+                        <img src="../img/homepage/product/Layer_1.png">
+                        <p>Kristina Dam Oak Table With White Marble Top </p>
+                        <p class="son-paragraf">&dollar; 799.55</p>
+                    </div>
+                    <div class="content">
+                        <img src="../img/homepage/product/Layer_1.png">
+                        <p>Kristina Dam Oak Table With White Marble Top </p>
+                        <p class="son-paragraf">&dollar; 799.55</p>
+                    </div>
+                    <div class="content">
+                        <img src="../img/homepage/product/Layer_1.png">
+                        <p>Kristina Dam Oak Table With White Marble Top </p>
+                        <p class="son-paragraf">&dollar; 799.55</p>
+                    </div>
+                    <div class="content">
+                        <img src="../img/homepage/product/Layer_1.png">
+                        <p>Kristina Dam Oak Table With White Marble Top </p>
+                        <p class="son-paragraf">&dollar; 799.55</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stabil-banner">
+                <div class="images" style="margin-left: 0;">
+                    <img src="../img/homepage/stabil banner/Delivery_Packages_On_A_Trolley._Attribute_as_Freepik_from_Flaticon.com.png">
+                    <div class="image-yazi">
+                        <p class="baslik">FOCUS</p>
+                        <p class="yazi-pad">Our unwavering focus on superior service delivery and building next generation competencies</p>
+                    </div>
+                </div>
+                <div class="images">
+                    <img src="../img/homepage/stabil banner/Triangular_Arrows_Sign_For_Recycle._Attribute_as_Freepik_from_Flaticon.com.png">
+                    <div class="image-yazi">
+                        <p class="baslik">METHOD</p>
+                        <p class="yazi-pad">A standardized methodology designed to deliver measurable business results and predictable costs</p>
+                    </div>
+                </div>
+                <div class="images">
+                    <img src="../img/homepage/stabil banner/Clipboard_Verification_Symbol._Attribute_as_Freepik_from_Flaticon.com.png">
+                    <div class="image-yazi">
+                        <p class="baslik">KNOWLEDGE</p>
+                        <p class="yazi-pad">A highly skilled, proactive workforce that reliably improves each client’s ROI while mitigating their business risk</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </body>
+
+    <footer>
+        <div class="footer-left">
+            <p class="copy">&copy; Copyright <span id="year" style="color: black;"></span> <br> All Rights Reserved.</p>
+            <script>
+                var time = new Date();
+                var yil = time.getFullYear();
+                document.getElementById("year").innerHTML = yil;
+            </script>
+            <p class="contact">CONTACT</p>
+            <div class="location-adress">
+            Headquarters:<br>
+            5600, Blvd. des Galeries, Bur 530 Québec, Québec G2K 2H6
+            </div>
+            <div class="mail-adress"><a href="mailto:contact@osf-global.com">contact@osf-global.com</a></div>
+            <div class="tel-no"><a href="tel:+1 (888) 548-4344">+1 (888) 548-4344</a></div>
+        </div>
+        <div class="footer-middle">
+            <div class="categoriest">
+                <p>CATEGORIEST</p>
+                <div class="alt-category" style="padding-left: 0px;">
+                    <a style="margin-top: 0px" href="../project_real/404-page/404.html">Alcohol</a>
+                    <a href="../project_real/404-page/404.html">Art</a>
+                    <a href="../project_real/404-page/404.html">Books</a>
+                    <a href="../project_real/404-page/404.html">Drink</a>
+                    <a href="../project_real/404-page/404.html">Electronics</a>
+                </div>
+                <div class="alt-category">
+                    <a style="margin-top: 0px" href="../project_real/404-page/404.html">Home</a>
+                    <a href="../project_real/404-page/404.html">Jewelry</a>
+                    <a href="../project_real/404-page/404.html">Kids &amp; Baby</a>
+                    <a href="../project_real/404-page/404.html">Men's Fashion</a>
+                    <a href="../project_real/404-page/404.html">Mobile</a>
+                    <a href="../project_real/404-page/404.html">Motorcycles</a>
+                    <a href="../project_real/404-page/404.html">Movies</a>
+                    <a href="../project_real/404-page/404.html">Music</a>
+                </div>
+                <div class="alt-category">
+                    <a style="margin-top: 0px" href="../project_real/404-page/404.html">Sport</a>
+                    <a href="../project_real/404-page/404.html">Toys</a>
+                    <a href="../project_real/404-page/404.html">Travel</a>
+                    <a href="../project_real/404-page/404.html">Women's Fashion</a>
+                </div>
+            </div>
+            <div class="about">
+                <p>ABOUT</p>
+                <div class="alt-about">
+                    <a style="margin-top: 0px" href="../project_real/404-page/404.html">About us</a>
+                    <a href="../project_real/404-page/404.html">Delivery</a>
+                    <a href="../project_real/404-page/404.html">Testimonials</a>
+                    <a href="../project_real/404-page/404.html">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="social-links">
+                <a style="margin-top: 0px" href="https://tr-tr.facebook.com"><img src="../img/homepage/socials/f.png"></a>
+                <a href="https://myaccount.google.com/intro/profile"><img src="../img/homepage/socials/g+.png"></a>
+                <a href="https://twitter.com"><img src="../img/homepage/socials/t.png"></a>
+                <a href="https://tr.pinterest.com"><img src="../img/homepage/socials/p.png"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../product_detailed_page/cart.js"></script>
+    <script src="../plus-heart.js"></script>
+</html>
